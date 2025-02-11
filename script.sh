@@ -3,5 +3,5 @@ mkdir -p "my_workspace"
   for i in pen book key
   do
  mkdir -p "my_workspace/$i"
- done
+ touch "my_workspace/$i"
 
